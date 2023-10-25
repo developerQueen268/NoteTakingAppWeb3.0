@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Professional Note-Taking App</title>
+    <link rel="stylesheet" href="C:\Users\dell\Desktop\HTML&CSS\web3.0trial\styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+    
+            <div class="menu-icon" id="menu-icon">
+                &#9776;
+            </div>
+            <div class="menu-box" id="menu-box">
+                <ul>
+                    <li><a href="savedNotes.html">Saved Notes</a></li>
+                    <li><a href="reminder.html">Reminders</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="deleted.html">Deleted</a></li>
+                    <li><a href="help.html">Help & Feedback</a></li>
+                </ul>
+            </div>
+            <h1>My Notes</h1>
+            <input type="text" id="search" placeholder="Search...">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+    <div class="container">
+        <textarea id="note" placeholder="Write your note here..."></textarea>
+        <button id="save">Save</button>
+        <div id="notes-list">
+            <!-- Notes will be displayed here -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 YourNotes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
